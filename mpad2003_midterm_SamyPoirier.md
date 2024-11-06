@@ -16,7 +16,7 @@ To conduct this analysis, the dataset was imported into Google Sheets, a practic
 ### Steps to Import the CSV File into Google Sheets
 
 1. **Download the CSV File**:
-    - Right-click the dataset link and select **“Save link as…”** to download the file.
+    - Just simply click on the City of Ottawa's Open Data Portal link and it will automatically dowload the csv file onto your computer.
 
 2. **Open Google Sheets and Start a New Document**:
     - Open a new sheet in Google Sheets for organization and analysis.
@@ -30,7 +30,7 @@ To conduct this analysis, the dataset was imported into Google Sheets, a practic
 ### General Observations of the Imported Dataset
 
 - **Dataset Size**: Contains 11 columns and 28,539 rows, making it a sizable dataset for analysis.
-- **Initial Cleanliness**: The data appears organized, but certain fields contain `\N`, suggesting missing or undefined values that require attention.
+- **Initial Cleanliness**: The data appears organized, but certain fields contain `\N`, suggesting missing or undefined values that require attention. There are also two empty columns M and L.
 
 ### Specific Column Observations
 
@@ -97,13 +97,13 @@ Data cleaning is crucial for ensuring consistency and accuracy. Several cleaning
 With the cleaned dataset, exploratory data analysis was performed to reveal key trends, categories, and anomalies.
 
 1. **Pivot Table**:
-   - Created a pivot table summarizing service request counts by type using COUNTA, showing Garbage and Recycling as the most common request, with 10,257 entries making up 35.94% of total requests.
+   - Created a pivot table summarizing service request counts by type using COUNTA, showing Garbage and Recycling as the most common request.
 
 2. **Exploratory Chart**:
    - A pie chart was generated to visualize service request types. Garbage and Recycling was the dominant category, underscoring potential waste management issues.
 
 3. **Analysis and Key Findings**:
-   - **Why These Variables?**: "Type" was chosen due to its relevance in understanding resident needs, aiding the city in prioritizing resources. Submission “Channel” provides insights into resident preferences.
+   - **Why These Variables?**: "Type" was chosen due to its relevance in understanding resident needs, aiding the city in prioritizing resources. 
    - **Standout Statistic**: The high volume of Garbage and Recycling requests suggests challenges in waste collection and recycling.
    - **Potential Story**: Data suggests dissatisfaction with waste management services, pointing toward possible improvements in infrastructure and public awareness.
 
